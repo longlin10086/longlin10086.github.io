@@ -18,7 +18,7 @@
 
 - shortcode 为我们所定义的方法，具体代码需要写在 `/layouts/shortcodes` 文件夹中新建同名 html 文件；parameter 则类似 css 中的标签，可以方便我们定位
 
-- % 所包裹的代码内容会被 markdown 引擎渲染解析后再传入，而 <*> 的代码内容不会被渲染
+- % 所包裹的代码内容会被 markdown 引擎渲染解析后再传入，而 <> 的代码内容不会被渲染
 - 我们可以将其理解为 `{{</* shortcode */>}}` 的实质是将同名 `shortcode.html` 文件内容复制到 markdown 中并执行
 
 和 `Html` 一样，shortcode 也有opening 和 closing 两种方式：
@@ -86,5 +86,7 @@ and a new line with a "quoted string".` */>}}
 别人的项目，稍微修改一下名字就当作自己的内容发布，这种低质量的水文遍地都是。
 高质量的长篇博文却无人问津，甚至连被抄袭的可能性都失去，实在荒唐。
 <br>
+{{< mark >}}
 满地六便士，我幻想成为月亮。
+{{< /mark >}}
 

@@ -174,7 +174,7 @@
 <p>shortcode 为我们所定义的方法，具体代码需要写在 <code>/layouts/shortcodes</code> 文件夹中新建同名 html 文件；parameter 则类似 css 中的标签，可以方便我们定位</p>
 </li>
 <li>
-<p>% 所包裹的代码内容会被 markdown 引擎渲染解析后再传入，而 &lt;*&gt; 的代码内容不会被渲染</p>
+<p>% 所包裹的代码内容会被 markdown 引擎渲染解析后再传入，而 &lt;&gt; 的代码内容不会被渲染</p>
 </li>
 <li>
 <p>我们可以将其理解为 <code>{{&lt; shortcode &gt;}}</code> 的实质是将同名 <code>shortcode.html</code> 文件内容复制到 markdown 中并执行</p>
@@ -262,7 +262,10 @@
 别人的项目，稍微修改一下名字就当作自己的内容发布，这种低质量的水文遍地都是。<br>
 高质量的长篇博文却无人问津，甚至连被抄袭的可能性都失去，实在荒唐。<br>
 <br><br>
-满地六便士，我幻想成为月亮。</p></div><div class="post-footer" id="post-footer">
+<mark>
+满地六便士，我幻想成为月亮。
+</mark>
+</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -353,5 +356,5 @@
 </script>
 
 
-<style type="text/css">body, a, a:hover {cursor: url(http://profilki.pl/files/cur/536.png) 0 0, default;}</style><div style="font-size: x-small;">Cursor by <a href="http://martyna-pomaga.bloog.pl">Martysia</a> @ <a href="http://profilki.pl/en/files/cursors/536-nu-the-cat">profilki.pl</a></div></body>
+<style type="text/css">body, a, a:hover {cursor: url(http://profilki.pl/files/cur/536.png) 0 0, default;}</style></body>
 </html>
