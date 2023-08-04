@@ -21,3 +21,4 @@ $(document).ready(function () {
     $(".top-scroll-bar").css("background","#f58ca1");
     });
   });
+

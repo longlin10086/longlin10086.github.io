@@ -2,7 +2,7 @@
 
 
 <!--more-->
-<a href="https://longlin10086.github.io/">
+<a href="https://longlin.tech/">
 <img src="longlin.jpg" alt="About Me" height="30%" width="30%" align="right" style="margin-left: 10px"/>
 </a>
 
