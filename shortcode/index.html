@@ -27,7 +27,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/longlin10086.github.io\/shortcode\/"
-        },"image": ["https:\/\/longlin10086.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo, blog","wordcount":  1116 ,
+        },"image": ["https:\/\/longlin10086.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo, blog","wordcount":  1278 ,
         "url": "https:\/\/longlin10086.github.io\/shortcode\/","datePublished": "2023-08-04T15:27:07+08:00","dateModified": "2023-08-04T15:27:07+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -130,7 +130,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Hugo ShortCode | 丰富你的 Markdown</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/longlin10086" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>longlin</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/coding/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Coding</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-08-04">2023-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1116 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-08-04">2023-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1278 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="busuanzi_container_page_pv">
                     本文总阅读量<span id="busuanzi_value_page_pv"></span>次
                 </span>
@@ -171,7 +171,7 @@
 <p>短代码的常见格式为 <code>{{% shortcode parameter %}}</code> 或 <code>{{&lt; shortcode parameter &gt;}}</code></p>
 <ul>
 <li>
-<p>shortcode 为我们所定义的方法，具体代码需要写在 <code>/layouts/shortcodes</code> 文件夹中新建同名 html 文件；parameter 则类似 css 中的标签，可以方便我们定位</p>
+<p>shortcode 为我们所定义的方法，具体代码需要写在 <code>/layouts/shortcodes</code> 文件夹中新建的同名 html 文件里；parameter 则类似 css 中的标签，可以方便我们定位</p>
 </li>
 <li>
 <p>% 所包裹的代码内容会被 markdown 引擎渲染解析后再传入，而 &lt;&gt; 的代码内容不会被渲染</p>
@@ -238,7 +238,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">abbr</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;{{ .Get `title` }}&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  {{/* .Get `text` */}}
+</span></span><span class="line"><span class="cl">  {{ .Get `text` }}
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">abbr</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -248,7 +248,9 @@
 <p><strong>例子在这（把鼠标放过来看看吧~）</strong>：<abbr title="Yahooooooooooooooooooooooooo~">
     Yaho~
 </abbr></p>
-<p>不过，Hugo 官方已经帮我们实现好了不少 shortcode ，即取即用，它们被统称为 <a href="https://gohugo.io/templates/shortcode-templates/" target="_blank" rel="noopener noreffer ">Custom shortcode</a>，在官网可以进行查看。</p>
+<p>从官方文档我们可以发现，短代码能做的不只这些，它们组合起来可以进行很复杂的操作，条件判断，循环语句都有对应的短代码，它就像一款新的编程语言，只不过是针对博客上的元素进行操作。</p>
+<p>并且，Hugo 官方已经帮我们实现好了不少 shortcode ，即取即用，它们被统称为 <a href="https://gohugo.io/templates/shortcode-templates/" target="_blank" rel="noopener noreffer ">Custom shortcode</a>，在官网可以进行查看。</p>
+<p>另外，在 LoveIt 主题中，诸如 bilibili , music 这些短代码也已经帮我们实现好了，具体可以在 <code>/theme/layouts/shortcodes</code> 里查看</p>
 <p>网上也有不少大佬对短代码进行了整理，现在也贴在下面以供读者查看：</p>
 <ul>
 <li><a href="https://irithys.com/p/hugo-shortcode-list" target="_blank" rel="noopener noreffer ">山茶化舍的博客</a></li>
@@ -256,7 +258,7 @@
 </ul>
 <br>
 <h3 id="一些插曲">一些插曲</h3>
-<p>在写这篇博客时，我发现无论如何 <code>{{&lt; shortcode &gt;}}</code> 中的短代码都会比 markdown 语法更快渲染出来，导致网页因为无法识别未定义的 shortcode 而崩溃。为此我在 Google 上查了一个多小时，没有发现任何一篇中文博客提到了这点特性。最终在我将要放弃的时候居然在 <a href="https://discourse.gohugo.io/t/how-to-write-text-shortcodes-so-it-will-not-rendering-as-shortcodes-in-markdown/20203" target="_blank" rel="noopener noreffer ">Hugo官方的Help界面</a> 发现了问题的答案。只需写成 <code>{{&lt; /*shortcode*/ &gt;}}</code> 就能正常让 shortcode stop rendering 从而被正常渲染。</p>
+<p>在写这篇博客时，我发现无论如何 <code>{{&lt; shortcode &gt;}}</code> 中的短代码都会比 markdown 语法更快渲染出来，导致网页因为无法识别未定义的 shortcode 而崩溃。为此我在 Google 上查了一个多小时，没有发现任何一篇中文博客提到了这点特性。最终在我将要放弃的时候居然在 <a href="https://discourse.gohugo.io/t/how-to-write-text-shortcodes-so-it-will-not-rendering-as-shortcodes-in-markdown/20203" target="_blank" rel="noopener noreffer ">Hugo官方的Help界面</a> 发现了问题的答案。只需写成 <code>{{&lt; /*shortcode*/ &gt;}}</code> 就能正常让 shortcode stop rendering 从而被正常渲染。此外，不包含 &lt;&gt; 或 % 的短代码如果加上 <code>/* */</code> 反而是画蛇添足，正常书写即可。</p>
 <p>与此同时，我在不经意间发现了 <a href="https://kuang.netlify.app/blog/hugo.html" target="_blank" rel="noopener noreffer ">风月大佬写的将近 5 万字 Hugo 博客详解</a> , 让我受益匪浅，也大受震撼。</p>
 <p>当下的互联网，太多人只是单纯从别人手中照抄照搬，这在中文互联网更是屡见不鲜。<br>
 别人的项目，稍微修改一下名字就当作自己的内容发布，这种低质量的水文遍地都是。<br>
@@ -356,5 +358,5 @@
 </script>
 
 
-<style type="text/css">body, a, a:hover {cursor: url(http://profilki.pl/files/cur/536.png) 0 0, default;}</style></body>
+</body>
 </html>

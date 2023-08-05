@@ -16,7 +16,7 @@
 
 短代码的常见格式为 `{{%/* shortcode parameter */%}}` 或 `{{</* shortcode parameter */>}}`
 
-- shortcode 为我们所定义的方法，具体代码需要写在 `/layouts/shortcodes` 文件夹中新建同名 html 文件；parameter 则类似 css 中的标签，可以方便我们定位
+- shortcode 为我们所定义的方法，具体代码需要写在 `/layouts/shortcodes` 文件夹中新建的同名 html 文件里；parameter 则类似 css 中的标签，可以方便我们定位
 
 - % 所包裹的代码内容会被 markdown 引擎渲染解析后再传入，而 <> 的代码内容不会被渲染
 - 我们可以将其理解为 `{{</* shortcode */>}}` 的实质是将同名 `shortcode.html` 文件内容复制到 markdown 中并执行
@@ -61,7 +61,7 @@ and a new line with a "quoted string".` */>}}
 
 ```html
 <abbr title="{{ .Get `title` }}">
-  {{/* .Get `text` */}}
+  {{ .Get `text` }}
 </abbr>
 ```
 
@@ -69,7 +69,11 @@ and a new line with a "quoted string".` */>}}
 
 **例子在这（把鼠标放过来看看吧~）**：{{< abbr title="Yahooooooooooooooooooooooooo~" text="Yaho~" >}}
 
-不过，Hugo 官方已经帮我们实现好了不少 shortcode ，即取即用，它们被统称为 [Custom shortcode](https://gohugo.io/templates/shortcode-templates/)，在官网可以进行查看。
+从官方文档我们可以发现，短代码能做的不只这些，它们组合起来可以进行很复杂的操作，条件判断，循环语句都有对应的短代码，它就像一款新的编程语言，只不过是针对博客上的元素进行操作。
+
+并且，Hugo 官方已经帮我们实现好了不少 shortcode ，即取即用，它们被统称为 [Custom shortcode](https://gohugo.io/templates/shortcode-templates/)，在官网可以进行查看。
+
+另外，在 LoveIt 主题中，诸如 bilibili , music 这些短代码也已经帮我们实现好了，具体可以在 `/theme/layouts/shortcodes` 里查看
 
 网上也有不少大佬对短代码进行了整理，现在也贴在下面以供读者查看：
 - [山茶化舍的博客](https://irithys.com/p/hugo-shortcode-list)
@@ -78,7 +82,7 @@ and a new line with a "quoted string".` */>}}
 <br>
 
 ### 一些插曲
-在写这篇博客时，我发现无论如何 `{{</* shortcode */>}}` 中的短代码都会比 markdown 语法更快渲染出来，导致网页因为无法识别未定义的 shortcode 而崩溃。为此我在 Google 上查了一个多小时，没有发现任何一篇中文博客提到了这点特性。最终在我将要放弃的时候居然在 [Hugo官方的Help界面](https://discourse.gohugo.io/t/how-to-write-text-shortcodes-so-it-will-not-rendering-as-shortcodes-in-markdown/20203) 发现了问题的答案。只需写成 `{{</* /*shortcode*/ */>}}` 就能正常让 shortcode stop rendering 从而被正常渲染。
+在写这篇博客时，我发现无论如何 `{{</* shortcode */>}}` 中的短代码都会比 markdown 语法更快渲染出来，导致网页因为无法识别未定义的 shortcode 而崩溃。为此我在 Google 上查了一个多小时，没有发现任何一篇中文博客提到了这点特性。最终在我将要放弃的时候居然在 [Hugo官方的Help界面](https://discourse.gohugo.io/t/how-to-write-text-shortcodes-so-it-will-not-rendering-as-shortcodes-in-markdown/20203) 发现了问题的答案。只需写成 `{{</* /*shortcode*/ */>}}` 就能正常让 shortcode stop rendering 从而被正常渲染。此外，不包含 <> 或 % 的短代码如果加上 `/* */` 反而是画蛇添足，正常书写即可。
 
 与此同时，我在不经意间发现了 [风月大佬写的将近 5 万字 Hugo 博客详解](https://kuang.netlify.app/blog/hugo.html) , 让我受益匪浅，也大受震撼。
 
