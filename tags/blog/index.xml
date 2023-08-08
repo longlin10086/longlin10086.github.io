@@ -4,7 +4,17 @@
         <link>https://longlin10086.github.io/tags/blog/</link>
         <description>blog - 标签 - longlin的个人小站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
-            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 04 Aug 2023 15:27:07 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/tags/blog/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 08 Aug 2023 12:18:39 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>Cumcmthesis | 基于LaTeX的数模写作模板</title>
+    <link>https://longlin10086.github.io/cumcmthesis/</link>
+    <pubDate>Tue, 08 Aug 2023 12:18:39 &#43;0800</pubDate>
+    <author>longlin</author>
+    <guid>https://longlin10086.github.io/cumcmthesis/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/latex.png" referrerpolicy="no-referrer">
+            </div>Cumcmthesis 的入门级使用]]></description>
+</item>
+<item>
     <title>Hugo ShortCode | 丰富你的 Markdown</title>
     <link>https://longlin10086.github.io/shortcode/</link>
     <pubDate>Fri, 04 Aug 2023 15:27:07 &#43;0800</pubDate>
