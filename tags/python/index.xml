@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Python - 标签 - longlin的个人小站</title>
+        <link>https://longlin10086.github.io/tags/python/</link>
+        <description>Python - 标签 - longlin的个人小站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
+            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 18 Aug 2023 14:22:21 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>EmbedPython | 一种py打包方式</title>
+    <link>https://longlin10086.github.io/embedpython/</link>
+    <pubDate>Fri, 18 Aug 2023 14:22:21 &#43;0800</pubDate>
+    <author>Longlin</author>
+    <guid>https://longlin10086.github.io/embedpython/</guid>
+    <description><![CDATA[今天中午的折腾记录]]></description>
+</item>
+</channel>
+</rss>
