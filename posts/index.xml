@@ -4,11 +4,21 @@
         <link>https://longlin10086.github.io/posts/</link>
         <description>所有文章 | longlin的个人小站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
-            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 18 Aug 2023 14:22:21 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Summary | 2023 暑期总结</title>
+    <link>https://longlin10086.github.io/summersummary/</link>
+    <pubDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</pubDate>
+    <author>longlin</author>
+    <guid>https://longlin10086.github.io/summersummary/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/summer.jpg" referrerpolicy="no-referrer">
+            </div>简单记录下暑期学习生活的点滴日常]]></description>
+</item>
+<item>
     <title>EmbedPython | 一种py打包方式</title>
     <link>https://longlin10086.github.io/embedpython/</link>
     <pubDate>Fri, 18 Aug 2023 14:22:21 &#43;0800</pubDate>
-    <author>Longlin</author>
+    <author>longlin</author>
     <guid>https://longlin10086.github.io/embedpython/</guid>
     <description><![CDATA[今天中午的折腾记录]]></description>
 </item>
