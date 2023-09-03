@@ -76,7 +76,7 @@ and a new line with a "quoted string".` */>}}
 另外，在 LoveIt 主题中，诸如 bilibili , music 这些短代码也已经帮我们实现好了，具体可以在 `/theme/layouts/shortcodes` 里查看。
 
 网上也有不少大佬对短代码进行了整理，现在也贴在下面以供读者查看：
-- [山茶化舍的博客](https://irithys.com/p/hugo-shortcode-list)
+- [山茶花舍的博客](https://irithys.com/p/hugo-shortcode-list)
 - [书藏的博客](https://shuzang.github.io/2019/hugo-blog-article-write)
 
 <br>

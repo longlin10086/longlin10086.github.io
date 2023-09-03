@@ -4,7 +4,23 @@
         <link>https://longlin10086.github.io/tags/</link>
         <description>Tags - 标签 - longlin的个人小站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
-            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 03 Sep 2023 14:23:11 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>git</title>
+    <link>https://longlin10086.github.io/tags/git/</link>
+    <pubDate>Sun, 03 Sep 2023 14:23:11 &#43;0800</pubDate>
+    <author>longlin</author>
+    <guid>https://longlin10086.github.io/tags/git/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>little page</title>
+    <link>https://longlin10086.github.io/tags/little-page/</link>
+    <pubDate>Sun, 03 Sep 2023 14:23:11 &#43;0800</pubDate>
+    <author>longlin</author>
+    <guid>https://longlin10086.github.io/tags/little-page/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>blog</title>
     <link>https://longlin10086.github.io/tags/blog/</link>
     <pubDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</pubDate>
@@ -18,14 +34,6 @@
     <pubDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</pubDate>
     <author>longlin</author>
     <guid>https://longlin10086.github.io/tags/summary/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>little page</title>
-    <link>https://longlin10086.github.io/tags/little-page/</link>
-    <pubDate>Fri, 18 Aug 2023 14:22:21 &#43;0800</pubDate>
-    <author>longlin</author>
-    <guid>https://longlin10086.github.io/tags/little-page/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -74,14 +82,6 @@
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>longlin</author>
     <guid>https://longlin10086.github.io/tags/content/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>配置</title>
-    <link>https://longlin10086.github.io/tags/configuration/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>longlin</author>
-    <guid>https://longlin10086.github.io/tags/configuration/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

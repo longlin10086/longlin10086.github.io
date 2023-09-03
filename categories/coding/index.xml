@@ -4,7 +4,17 @@
         <link>https://longlin10086.github.io/categories/coding/</link>
         <description>Coding - 分类 - longlin的个人小站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
-            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 18 Aug 2023 14:22:21 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/categories/coding/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 03 Sep 2023 14:23:11 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/categories/coding/" rel="self" type="application/rss+xml" /><item>
+    <title>CommonGit | 个人用常见git命令记录</title>
+    <link>https://longlin10086.github.io/commongit/</link>
+    <pubDate>Sun, 03 Sep 2023 14:23:11 &#43;0800</pubDate>
+    <author>longlin</author>
+    <guid>https://longlin10086.github.io/commongit/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/git-logo.jpg" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item>
+<item>
     <title>EmbedPython | 一种py打包方式</title>
     <link>https://longlin10086.github.io/embedpython/</link>
     <pubDate>Fri, 18 Aug 2023 14:22:21 &#43;0800</pubDate>
