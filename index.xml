@@ -4,9 +4,19 @@
         <link>https://longlin10086.github.io/</link>
         <description>longlin的个人小站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
-            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 03 Sep 2023 14:23:11 &#43;0800</lastBuildDate>
+            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 04 Sep 2023 08:05:01 &#43;0800</lastBuildDate>
             <atom:link href="https://longlin10086.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Weekly-01 | 第一篇周记</title>
+    <link>https://longlin10086.github.io/weekly01/</link>
+    <pubDate>Mon, 04 Sep 2023 08:05:01 &#43;0800</pubDate>
+    <author>longlin</author>
+    <guid>https://longlin10086.github.io/weekly01/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/week01.jpeg" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item>
+<item>
     <title>CommonGit | 个人用常见git命令记录</title>
     <link>https://longlin10086.github.io/commongit/</link>
     <pubDate>Sun, 03 Sep 2023 14:23:11 &#43;0800</pubDate>
