@@ -27,7 +27,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/longlin10086.github.io\/commongit\/"
-        },"image": ["https:\/\/longlin10086.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "git, little page","wordcount":  739 ,
+        },"image": ["https:\/\/longlin10086.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "git, little page","wordcount":  951 ,
         "url": "https:\/\/longlin10086.github.io\/commongit\/","datePublished": "2023-09-03T14:23:11+08:00","dateModified": "2023-09-03T14:23:11+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -130,7 +130,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">CommonGit | 个人用常见git命令记录</h1><h2 class="single-subtitle">记录一下常见有用的git命令</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>longlin</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/coding/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Coding</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-03">2023-09-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 739 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-03">2023-09-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 951 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="busuanzi_container_page_pv">
                     本文总阅读量<span id="busuanzi_value_page_pv"></span>次
                 </span>
@@ -158,6 +158,12 @@
     <li><a href="#4-仓库分支">4 仓库分支</a></li>
     <li><a href="#5-远程同步">5 远程同步</a></li>
     <li><a href="#6-撤销">6 撤销</a></li>
+    <li><a href="#7-一些个人平时碰到使用的命令组合">7 一些个人平时碰到使用的命令组合</a>
+      <ul>
+        <li><a href="#71-删除已经push的远程文件文件夹">7.1 删除已经push的远程文件/文件夹</a></li>
+        <li><a href="#72-本地文件删除后同步删除远程代码仓库">7.2 本地文件删除后同步删除远程代码仓库</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>本篇文章基于<a href="https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html" target="_blank" rel="noopener noreffer ">阮一峰：常用Git命令清单</a>进行了适当修改。主要攫取了我日常使用过程中可能会经常使用的命令做了一个记录。</p>
@@ -360,6 +366,59 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"># 新增一个commit用于撤销指定commit
 </span></span><span class="line"><span class="cl">$ git revert [commit]
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><br></br></p>
+<h2 id="7-一些个人平时碰到使用的命令组合">7 一些个人平时碰到使用的命令组合</h2>
+<h3 id="71-删除已经push的远程文件文件夹">7.1 删除已经push的远程文件/文件夹</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 预览暂存区中需要删除的文件或文件夹
+</span></span><span class="line"><span class="cl">$ git rm -r -n --cached 文件/文件夹
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>-n</code> 参数执行命令时不会删除任何文件，取而代之时展示此命令要删除的文件列表预览<br>
+<code>-r</code> 参数表示递归删除</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 确认好之后去掉-n参数删除文件
+</span></span><span class="line"><span class="cl">$ git rm -r --cached 文件/文件夹
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 提交并推送
+</span></span><span class="line"><span class="cl">$ git commit -m &#34;xxx&#34;
+</span></span><span class="line"><span class="cl">$ git push
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><br></br></p>
+<h3 id="72-本地文件删除后同步删除远程代码仓库">7.2 本地文件删除后同步删除远程代码仓库</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 清理本地缓存文件
+</span></span><span class="line"><span class="cl">$ git rm -r --cached .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 提交并推送
+</span></span><span class="line"><span class="cl">$ git commit -m &#34;xxx&#34;
+</span></span><span class="line"><span class="cl">$ git push
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
