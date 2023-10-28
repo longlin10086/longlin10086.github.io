@@ -1,8 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Documentation - Category - longlin的个人小站</title>
-        <link>https://longlin10086.github.io/en/categories/documentation/</link>
-        <description>Documentation - Category - longlin的个人小站</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
-            <webMaster>gnulonglin@gmail.com (longlin)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://longlin10086.github.io/en/categories/documentation/" rel="self" type="application/rss+xml" /></channel>
-</rss>
