@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>longlin的个人小站</title>
-    <link>https://longlin10086.github.io/</link>
-    <description>longlin的个人小站</description>
+    <title>Summary - 分类 - longlin的个人小站</title>
+    <link>https://longlin10086.github.io/categories/summary/</link>
+    <description>Summary - 分类 - longlin的个人小站</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gnulonglin@gmail.com (longlin)</managingEditor>
-      <webMaster>gnulonglin@gmail.com (longlin)</webMaster><lastBuildDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</lastBuildDate>
-      <atom:link href="https://longlin10086.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
+      <webMaster>gnulonglin@gmail.com (longlin)</webMaster><lastBuildDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</lastBuildDate><atom:link href="https://longlin10086.github.io/categories/summary/" rel="self" type="application/rss+xml" /><item>
   <title>Summary | 2023 暑期总结</title>
   <link>https://longlin10086.github.io/posts/summersummary/</link>
   <pubDate>Sun, 27 Aug 2023 11:11:43 &#43;0800</pubDate>
