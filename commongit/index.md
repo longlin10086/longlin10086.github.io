@@ -75,6 +75,9 @@ $ git branch --track [branch] [remote-branch]
 # 将一个现有分支与远程分支建立追踪关系
 $ git branch --set-upstream [branch] [remote-branch]
 
+# 查看所有的跟踪分支
+$ git branch -vv
+
 # 切换到指定分支
 $ git checkout [branch]
 
@@ -86,6 +89,7 @@ $ git branch -d [branch]
 
 # 删除远程分支
 $ git push origin --delete [branch]
+$ git push :branch_name
 ```
 
 ## 5 远程同步
